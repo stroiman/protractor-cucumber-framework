@@ -1,6 +1,6 @@
 {
-  "name": "protractor-cucumber-framework",
-  "version": "6.2.1",
+  "name": "@stroiman/protractor-cucumber-framework",
+  "version": "7.0.0",
   "description": "Protractor framework for Cucumber.js",
   "main": "index.js",
   "engines": {
@@ -48,7 +48,8 @@
     "Pehr Johansson <pehr.johansson@nab.com.au>",
     "Sammy Jelin <sjelin@gmail.com>",
     "Wim Selles <wim@wswebcreation.nl>",
-    "Flavien Cathala"
+    "Flavien Cathala",
+    "Peter Strøiman <peter@stroiman.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -92,5 +93,8 @@
     "printWidth": 80,
     "singleQuote": true,
     "bracketSpacing": false
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
