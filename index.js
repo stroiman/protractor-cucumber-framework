@@ -78,7 +78,7 @@ exports.run = function(runner, specs) {
       argv.push('--require', capturer);
     } else {
       let tempFile = tmp.fileSync();
-      argv.push('--format', `${capturer}:${tempFile.name}`);
+      // argv.push('--format', `${capturer}:${tempFile.name}`);
     }
 
     if (opts.rerun) {
